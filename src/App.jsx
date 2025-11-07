@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import TopUpForm from "./components/TopUpForm";
-import Features from "./components/Features";
+import Pricing from "./components/Pricing";
+import Highlights from "./components/Highlights";
 import Footer from "./components/Footer";
 
 function App() {
@@ -10,8 +10,8 @@ function App() {
       <Navbar />
       <main>
         <Hero />
-        <TopUpForm />
-        <Features />
+        <Pricing />
+        <Highlights />
       </main>
       <Footer />
     </div>
