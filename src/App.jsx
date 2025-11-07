@@ -1,19 +1,15 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Pricing from "./components/Pricing";
-import LoginInfo from "./components/LoginInfo";
-import Highlights from "./components/Highlights";
 import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="min-h-screen bg-slate-900">
+    <div className="min-h-screen bg-slate-950 text-slate-100 selection:bg-emerald-400/30 selection:text-emerald-100">
       <Navbar />
       <main>
         <Hero />
         <Pricing />
-        <LoginInfo />
-        <Highlights />
       </main>
       <Footer />
     </div>
